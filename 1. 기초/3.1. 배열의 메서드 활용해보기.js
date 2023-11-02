@@ -70,5 +70,13 @@ console.log(subPlayer.split(" "));
 // 14. 선착순 2명 메로나
 console.log(subPlayer.split(" ", 2));
 
+// 15. 1군 선수단 모두 박수 한번 짝
+console.log(player.join(" 짝! "));
+
+// 16. 방출 명단입니다. (선수 명단 : 루카쿠, 마운트, 크리스텐센)
+console.log(player.pop("루카쿠"));
+console.log(player.pop("마운트"));
+console.log(player.pop("크리스텐센"));
+
 // console.log(player);
 // console.log(subPlayer);
